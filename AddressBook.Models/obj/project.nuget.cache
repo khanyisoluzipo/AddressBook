@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sqvzegy7Ux14O9V6h8oGfGt7P26RQNGP9hYM9DBPZ6QxYUsQ08g4BSBMMHczYfoEEfxUdxrkeNdRxzPY9TLcDg==",
+  "success": true,
+  "projectFilePath": "J:\\AddressBook.Api\\AddressBook.Models\\AddressBook.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KhanyisoL\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
