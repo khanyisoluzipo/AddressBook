@@ -28,7 +28,7 @@ namespace AddressBook.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AddressDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DBConn")));
+            services.AddDbContext<AddressDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnString")));
 
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<ISuburbRepository, SuburbRepository>();
